@@ -2,12 +2,12 @@ const DB_URI =
   "mongodb+srv://somkiat:6Eba0874@cluster0.l2npy.gcp.mongodb.net/nextecom?retryWrites=true&w=majority";
 const API =
   process.env.NODE_ENV === "production"
-    ? "https://xxx.vercel.app/api"
+    ? "https://nextecom-hazel.vercel.app/api"
     : "http://localhost:3000/api";
     
-const NEXTAUTH_SECRET = "xxx";
-const GOOGLE_CLIENT_ID = "xxx-xxx.apps.googleusercontent.com";
-const GOOGLE_CLIENT_SECRET = "xxx";
+const NEXTAUTH_SECRET = "GSFGS5566dhdhDHDH888";
+const GOOGLE_CLIENT_ID = "1051833473520-0u00l10smfs7gn4agqajb05qd4jfkui8.apps.googleusercontent.com";
+const GOOGLE_CLIENT_SECRET = "JpNPaXaDnU985DhyyUSMXlvT";
 
 CLOUDINARY_CLOUD_NAME = "xxx";
 CLOUDINARY_API_KEY = "xxx";
